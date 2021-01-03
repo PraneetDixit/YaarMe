@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.d-block{
+    display: block;
+}
+
+.w-auto{
+    width: auto;
+}
+
+.fs-35{
+    font-size: 35px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#img{
+    height: 450px;
+    background-image: url(Img/back.svg);
+    background-size: 100% 72%;
+    background-position: top;
+}
+
+.fill{
+    flex-grow: 1;    
+}
+
+#cont{
+    height: 58%;
+}
+
+#logo{
+    width: fit-content;
+    margin: 0px 45px;
+}
+
+#controls{
+    height: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#controls img{
+    height: 50%;
+    margin-right: 40px;
+}
+
+#heading{
+    height: fit-content;
+    font-size: 90px;
+}
+
+#subHeading{
+    height: fit-content;
+    margin-top: 10px;
+    color: #b1b1b1;
+}
+
+#info{
+    padding: 0px 35px;
+    margin-bottom: 40px;
+}
+
+#followers{
+    color: #69a6bd;
+    margin-top: 5px;
+}
+
+#motto{
+    margin-top: 27px;
+}
+
+hr{
+    border: none;
+    height: 10px;
+    background-color: #d6cdc3;
+}
+
+#postedBy{
+    padding: 30px 35px;
+    font-size: 33px;
+    border-bottom: 3px solid #b5b5b5;
+}
+
+#sender{
+    padding: 35px;
+}
+
+#dp img{
+    display: block;
+    height: 130px;
+    width: 130px;
+}
+
+#detail{
+    padding: 0px 15px;   
+    flex-grow: 1;
+}
+
+#name{
+    font-size: 38px;
+}
+
+#det img{
+    height: 30px;
+    width: 30px;
+    margin-top: 2px;
+}
+
+#option img{
+    height: 35px;
+    width: 35px;
+    margin: 20px 20px 0px 0px;
+}
+
+#postBody{
+    padding: 5px 38px;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+#postBody span{
+    color: #a5a5a5;
+}
+
+#postImage{
+    height: 550px;
+    background-image: url(Img/company.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#link{
+    background-color: #f9fafc;
+    padding: 30px 35px;
+}
+
+#linkTitle{
+    margin-bottom: 25px;
+}
+
+#linkUrl{
+    font-size: 34px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#sticky{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border: none;
+    background-color: #1676ff;
+    background-image: url(Img/external-link.png);
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: 40%;
+}
